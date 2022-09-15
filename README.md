@@ -3,11 +3,11 @@
 This is the repository for creating learning materials for MSc Translational Neuroscience. I added below the structure for the pre-materials. As we make changes or finish certain parts of the tutorial, we can do a line-cross or a tick next to each section to signal that it's done.
 
 1.	Python Syntax
-a.	Variables
-b.	Arithmetic operations
-c.	Strings
-d.	Print statements
-e.	Booleans
+    -  Variables
+    - Arithmetic operations
+    - Strings
+    - Print statements
+    - Booleans
 f.	How to open/write files
 g.	Common Errors and how to identify them
 h.	Exercises
