@@ -9,9 +9,9 @@ This is the repository for creating learning materials for MSc Translational Neu
     - Print statements
     - Booleans
     - How to open/write files
-g.	Common Errors and how to identify them
-h.	Exercises
-2.	Python Functions
+    - Common Errors and how to identify them
+    - Exercises
+Python Functions
 a.	Structure and definition
 b.	Calling a function and returning values
 c.	Single and multiple parameters functions
