@@ -8,7 +8,7 @@ This is the repository for creating learning materials for MSc Translational Neu
     - Strings
     - Print statements
     - Booleans
-f.	How to open/write files
+    - How to open/write files
 g.	Common Errors and how to identify them
 h.	Exercises
 2.	Python Functions
