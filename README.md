@@ -11,12 +11,12 @@ This is the repository for creating learning materials for MSc Translational Neu
     - How to open/write files
     - Common Errors and how to identify them
     - Exercises
-2. Python Functions
-a.	Structure and definition
-b.	Calling a function and returning values
-c.	Single and multiple parameters functions
-d.	Scope of variables (local vs global)
-e.	Exercises
+2. **DAY 2:Python Functions**
+    - Structure and definition
+    - Calling a function and returning values
+    - Single and multiple parameters functions
+    - Scope of variables (local vs global)
+    - Exercises
 3.	Python Lists 
 a.	Syntax and creating lists
 b.	Selecting elements from a list
