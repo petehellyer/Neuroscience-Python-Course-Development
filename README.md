@@ -11,18 +11,20 @@ This is the repository for creating learning materials for MSc Translational Neu
     - How to open/write files
     - Common Errors and how to identify them
     - Exercises
-2. **DAY 2:Python Functions**
+2. **DAY 2: Python Functions**
     - Structure and definition
     - Calling a function and returning values
     - Single and multiple parameters functions
     - Scope of variables (local vs global)
     - Exercises
-3.	Python Lists 
-a.	Syntax and creating lists
-b.	Selecting elements from a list
-c.	Merging lists
-d.	Removing elements from the list
-e.	Exercises
+3.	Day 3: Python Lists and Arrays
+    - Syntax and creating lists
+    - Selecting elements from a list
+    - Merging lists
+    - Removing elements from the list
+    - Basic operations with lists
+    - Arrays
+    - Exercises
 4.	Python Conditional Statements
 a.	If/Else statements
 b.	OR, AND operators
