@@ -17,7 +17,7 @@ This is the repository for creating learning materials for MSc Translational Neu
     - Single and multiple parameters functions
     - Scope of variables (local vs global)
     - Exercises
-3.	Day 3: Python Lists and Arrays
+3.	**Day 3: Python Lists and Arrays**
     - Syntax and creating lists
     - Selecting elements from a list
     - Merging lists
