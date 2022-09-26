@@ -54,7 +54,7 @@ g.	Chi-square
 </details>
 
 
-1. **Exercises**: when you completed **both** the *statistical theory* and the *programming* lectures, you can continue to complete the 5 exercises that we have prepared for you. The exercises require you to know everything we have mentioned in the lectures (both programming and statistics) and consist in analysing and preparing some real-data on cognitive behaviour, that we collected as part of the *Great Britain Intelligence Test (GBIT)*. We suggest you to solve each exercise in a separate `Jupyter Notebook`. 
+4. **Exercises**: when you completed **both** the *statistical theory* and the *programming* lectures, you can continue to complete the 5 exercises that we have prepared for you. The exercises require you to know everything we have mentioned in the lectures (both programming and statistics) and consist in analysing and preparing some real-data on cognitive behaviour, that we collected as part of the *Great Britain Intelligence Test (GBIT)*. We suggest you to solve each exercise in a separate `Jupyter Notebook`. 
 
 
     > **IMPORTANT**: In the week between the - and -, we will open a `Q&A` on Blackboard where you will be able to post questions about the lectures and the exercises. The `Q&A` will remain open for **ONE WEEK**. During this week, you have the opportunity to ask all the questions you might have. At the end of the week, we will reply to all the questions on Blackboard. If we believe that one question might require longer explanations, we will schedule calls with all the students that are facing the same issues.
