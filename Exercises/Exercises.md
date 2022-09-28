@@ -25,9 +25,9 @@ A cypher is a way to encode messages by mapping each letter to a different one. 
 **HINT**: To be able to solve this exercise you need to use a *dictionary* and string manipulation
 
 ## 4. Implement a Ceasar cypher (⭐️⭐️⭐️)
-Another way to encode messages is through a Ceasar cypher. Here you are given a message and a key, which is a number, and the encoding is done by shifting the number in *key* places. So, if the key = 2, then `A` becomes `C`,  `B` becomes `D` and  `Z` becomes  `B` (and so on). Implement the encoding functin (and as a bonus the decoding) that takes as input a message and a key (with key having as default value 3) and returns the encoded message. 
+Another way to encode messages is through a Ceasar cypher. Here you are given a message and a key, which is a number, and the encoding is done by shifting the number in *key* places. So, if the key = 2, then `A` becomes `C`,  `B` becomes `D` and  `Z` becomes  `B` (and so on). Implement the encoding function (and as a bonus the decoding) that takes as input a message and a key (with key having as default value 3) and returns the encoded message. 
 
-**HINT #1**: the most efficinet way to implement a seifer is with a *dictionary*
+**HINT #1**: to solve it try to use a *dictionary*
 
 **HINT #2**: to encode certain letter you will have to go back to the beginning of the alphabet. For this case, the *modulo* operator (%) is useful, which returns the remainder of the division of two numbers. 
 
@@ -36,7 +36,7 @@ Another way to encode messages is through a Ceasar cypher. Here you are given a 
 ## 5. Fix the separated encoded message (⭐️⭐️⭐️)
 An encoded message was written in 5 separate papers and needs to be put together into a unique sentence, in order to be able to decode the message. The only information you know is that the last letter of each separate part of the sequence must correspond to the first letter of the following one. Implement a function that goes through the 5 separate strings and put them back together. There is one of these parts of the message that was accidentally written with a space between the letters - before adding that part to the unique sentence, remove the empty space.
 
-**HINT #1**: to test you function you can use the following five sequences -  `AGCJDE`,  `TGRSGH`,  `EHSUTJ`,  `HFRSKA`,  `JSHGDW`.
+**HINT #1**: to test you function you can use the following five sequences -  `AGCJDE`,  `TGRSGH`,  `EHSUTJ`,  `HFRSKA`,  `JSHGD W`. The output should be:  `TGRSGHHFRSKAAGCJDEEHSUTJJSHGDW`
 
 **HINT #2**: to be able to solve the exercise you need to use a *while* loop.
 
