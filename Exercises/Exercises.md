@@ -5,6 +5,9 @@ The level of complexity is described by the number of stars next to the title - 
 ## 1. The RNA complementary (⭐️)
 Transcription is the process in which DNA is converted to RNA. To do this, it is necessary to map each letter in a DNA sequence to its complemet `A -> U`, `T -> A`, `G -> C` and `C -> G`. Define a function that takes an input a DNA sequence and returns the RNA complementary.
 
+## 2. The prime numbers (⭐️)
+Define a function that takes as input a list of numbers and returns only those that are prime numbers and how many they are. 
+
 ## 2. Find the GC-contnent, the individual nucleotides counts and the ATAT motif (⭐️)
 In a DNA string you can have four different nucleotides: `A`, `C`, `T` and `G`. Knowing the number of each individual nucleotides and the percentage of GC-content (G **or** C nucleotides) is important. Define a function that takes as input a dictionary, with as key the name of a sequence and as value the DNA sequence and:
 1. Calculates the number of individual nucleotides in each sequence 
