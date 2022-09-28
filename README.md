@@ -28,33 +28,13 @@ You are expected to go trough the material in the following order:
     | Day3 | Introduction to Lists and Arrays |<ul><li>Importing Modules</li><li>Extract elements from lists</li><li>Lists update</li><li>Basic operations with lists</li><li>Extract elements from arrays</li><li>Arrays dimentions and shapes</li><li>Generation of arrays</li><li>Mathematical operations with arrays</li> </ul> |
     | Day4| Introduction to Conditional Statements| <ul><li>Conditional statements structure and application</li><li>Truthiness and conditional statement</li> </ul>|
     | Day5| introduction to Loops | <ul><li>Introduction to for loops</li><li>Looping over lists</li><li>Looping over strings</li><li>Range function</li><li>Enumerate function</li><li>Continue and break</li><li>Nested loops</li><li>Introduction to While</li> </ul> |
-
-<details>
-TO REMOVE WHEN WE ARE DONE
-6.	Python Strings
-a.	For IN syntax
-b.	Slicing strings
-c.	Common functions for manipulating strings (format, split, etc)
-d.	Exercises
-7.	Python Dictionaries
-a.	Syntax
-b.	Key-value methods
-c.	Merging dictionaries
-d.	Removing elements via pop()
-e.	Exercises
-8.	Summary statistics (Plus materials on theory behind stats)
-a.	Python Modules
-b.	Mean, median, SD
-c.	Distributions and visualisations
-d.	Data transformation
-e.	T-tests
-f.	Correlations
-g.	Chi-square
-1.  Pandas Library - Creating data frames and using them to manipulate data. More details on this later.
-</details>
+    | Day6 | Introduction to Strings manipulation | <ul><li>Indexing and iterating through strings</li><li>String methods</li><li>Cleaning messy strings</li> </ul> |
+    | Day7 | Introductiomn to Dictionaries | <ul><li>Dictionary methods</li><li>Iterating through dictionaries</li> </ul> |
+    | Day8 | Introduction to Datframes | <ul><li> Create dataframes</li><li>Visualize dataframes</li><li>Get information about dataframes</li><li>Access and update data</li><li>Detection and removal of missing values</li><li>Replacement of wrong data</li><li>Detection and removal of duplicates</li><li>Merging of dataframes</li> </ul> |
+    | Day9 | Introduction to plotting | <ul><li>Scatterplots</li><li>Histograms</li><li>Barplots</li><li>Boxplots</li><li>Pie charts</li><li>Subplots</li> </ul> |
 
 
-4. **Exercises**: when you completed **both** the *statistical theory* and the *programming* lectures, you can continue to complete the 5 exercises that we have prepared for you. The exercises require you to know everything we have mentioned in the lectures (both programming and statistics) and consist in analysing and preparing some real-data on cognitive behaviour, that we collected as part of the *Great Britain Intelligence Test (GBIT)*. We suggest you to solve each exercise in a separate `Jupyter Notebook`. 
+4. **Exercises**: when you completed **both** the *statistical theory* and the *programming* lectures, you can continue to complete the 5 exercises that we have prepared for you. The exercises require you to know everything we have mentioned in the lectures (both programming and statistics) and consist in analysing and preparing some real-data on cognitive behaviour, as well as solving some coding exercises. We suggest you to solve each exercise in a separate `Jupyter Notebook`. 
 
 
     > **IMPORTANT**: In the week between the - and -, we will open a `Q&A` on Blackboard where you will be able to post questions about the lectures and the exercises. The `Q&A` will remain open for **ONE WEEK**. During this week, you have the opportunity to ask all the questions you might have. At the end of the week, we will reply to all the questions on Blackboard. If we believe that one question might require longer explanations, we will schedule calls with all the students that are facing the same issues.

@@ -45,19 +45,23 @@
 
     
 ## Step 5: Download the lectures material and start a Jupyter
-1. Download the material from blackboard and save them in a folder in your  `Desktop ` called `PythonTutorial`
 2. Open a terminal by pressing  `Command + Space ` and typing  `terminal `, or by selecting the Terminal icon from the Launchpad (might be inside a folder called `Others`)
 3. Copy the following commands and press  `Enter ` at the end of each command
 
      `cd`
 
-     `cd Desktop/PythonTutorial`
+     `cd Desktop/`
 
-     `jupyter lab`
+     `git clone https://github.com/dragos-gruia/MSc-Neuroscience-Python-Course-Development.git`
+
+     `cd MSc-Neuroscience-Python-Course-Development`
+
+    `jupyter lab`
 
     In order to be able to run the command correctly you should not be in your conda environment. This means that at the beginning of the line where you are writing, you should see (base). If you don't see (base) but (PythonTutorial), then write the following command, press `Enter` and repeat step 3.
 
     `conda deactivate`
+
 4. If the command worked correctly, a webpage should be opened automatically with a jupyter lab page. Now, press on the file called `Day1.ipnb` and start with the lectures.
 
 
