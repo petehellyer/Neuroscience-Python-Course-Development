@@ -15,7 +15,7 @@ There is a text file that is a MATLAB matrix where each row in the matrix is a r
 A seifer is a way to encode messages by mapping each letter to a different one. One ancient way to do this is called `the abtash seifer`. This seifer uses as key an inverted alphabet, so that `A` becomes  `Z`,  `B` becomes `Y`. Write two functions that implements the encoding and decoding process of the seifer. 
 
 **IMPORTANT** -> the seifer must:
-1. Ignors elements in a message that are not letter (e.g. numbers or spaces)
+1. Ignore elements in a message that are not letter (e.g. numbers or spaces)
 2. Be able to take as input the message both in capital letter and lowercase.
 
 
