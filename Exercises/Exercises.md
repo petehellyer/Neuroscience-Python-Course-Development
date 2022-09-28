@@ -5,7 +5,16 @@ The level of complexity is described by the number of stars next to the title - 
 ## 1. The RNA complementary (⭐️)
 Transcription is the process in which DNA is converted to RNA. To do this, it is necessary to map each letter in a DNA sequence to its complemet `A -> U`, `T -> A`, `G -> C` and `C -> G`. Define a function that takes an input a DNA sequence and returns the RNA complementary.
 
-## 2. Parse a corrupted file (⭐️⭐️)
+## 2. Find the GC-contnent, the individual nucleotides counts and the ATAT motif (⭐️)
+In a DNA string you can have four different nucleotides: `A`, `C`, `T` and `G`. Knowing the number of each individual nucleotides and the percentage of GC-content (G **or** C nucleotides) is important. Define a function that takes as input a dictionary, with as key the name of a sequence and as value the DNA sequence and:
+1. Calculates the number of individual nucleotides in each sequence 
+2. Calculates the percentage of GC-content in each individual sequence 
+3. Checks whether the sequence contains the motif `ATAT` and if it does it prints that the `sequence_name` has the motif.
+3. Returns the percentage and the name of the sequence with the highest percentage of GC-content.
+4. Prints the number of individual nucleotides in each sequence
+
+
+## 3. Parse a corrupted file (⭐️⭐️)
 There is a text file that is a matrix where each row in the matrix is a row in the file and the columns in the matrix are separated by  `\t `. The matrix should only have numbers, but, because of some internal errors, the matrix has been corrupted and some of the lines contain words. Write a *function* that:
 1. Import the file 
 2. Excludes the rows with words
@@ -15,7 +24,7 @@ Use the function to check that it works properly
 
 **HINT**: To solve the exercise, you have to acess the file, and use a *for* loop and *if* statement.
 
-## 3. Implement an abtash cypher (⭐️⭐️)
+## 4. Implement an abtash cypher (⭐️⭐️)
 A cypher is a way to encode messages by mapping each letter to a different one. One ancient way to do this is called `the abtash cypher`. This cypher uses as key an inverted alphabet, so that `A` becomes  `Z`,  `B` becomes `Y`. Write two functions that implements the encoding and decoding process of the cypher. 
 
 **IMPORTANT** -> the cypher must:
@@ -24,7 +33,7 @@ A cypher is a way to encode messages by mapping each letter to a different one. 
 
 **HINT**: To be able to solve this exercise you need to use a *dictionary* and string manipulation
 
-## 4. Implement a Ceasar cypher (⭐️⭐️⭐️)
+## 5. Implement a Ceasar cypher (⭐️⭐️⭐️)
 Another way to encode messages is through a Ceasar cypher. Here you are given a message and a key, which is a number, and the encoding is done by shifting the number in *key* places. So, if the key = 2, then `A` becomes `C`,  `B` becomes `D` and  `Z` becomes  `B` (and so on). Implement the encoding function (and as a bonus the decoding) that takes as input a message and a key (with key having as default value 3) and returns the encoded message. 
 
 **HINT #1**: to solve it try to use a *dictionary*
@@ -33,20 +42,12 @@ Another way to encode messages is through a Ceasar cypher. Here you are given a 
 
 **HINT #3**: if the *modulo* is too challenging, try with an *if* statement.
 
-## 5. Fix the separated encoded message (⭐️⭐️⭐️)
+## 6. Fix the separated encoded message (⭐️⭐️⭐️)
 An encoded message was written in 5 separate papers and needs to be put together into a unique sentence, in order to be able to decode the message. The only information you know is that the last letter of each separate part of the sequence must correspond to the first letter of the following one. Implement a function that goes through the 5 separate strings and put them back together. There is one of these parts of the message that was accidentally written with a space between the letters - before adding that part to the unique sentence, remove the empty space.
 
 **HINT #1**: to test you function you can use the following five sequences -  `AGCJDE`,  `TGRSGH`,  `EHSUTJ`,  `HFRSKA`,  `JSHGD W`. The output should be:  `TGRSGHHFRSKAAGCJDEEHSUTJJSHGDW`
 
 **HINT #2**: to be able to solve the exercise you need to use a *while* loop.
-
-## 6. Find the GC-contnent, the individual nucleotides counts and the ATAT motif (⭐️)
-In a DNA string you can have four different nucleotides: `A`, `C`, `T` and `G`. Knowing the number of each individual nucleotides and the percentage of GC-content (G **or** C nucleotides) is important. Define a function that takes as input a dictionary, with as key the name of a sequence and as value the DNA sequence and:
-1. Calculates the number of individual nucleotides in each sequence 
-2. Calculates the percentage of GC-content in each individual sequence 
-3. Checks whether the sequence contains the motif `ATAT` and if it does it prints that the `sequence_name` has the motif.
-3. Returns the percentage and the name of the sequence with the highest percentage of GC-content.
-4. Prints the number of individual nucleotides in each sequence
 
 
 ## 7. Cognitive data analysis (⭐️⭐️⭐️⭐️)
