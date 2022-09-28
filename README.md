@@ -32,7 +32,7 @@ You are expected to go trough the material in the following order:
     | Day7 | Introductiomn to Dictionaries | <ul><li>Dictionary methods</li><li>Iterating through dictionaries</li> </ul> |
     | Day8 | Introduction to Datframes | <ul><li> Create dataframes</li><li>Visualize dataframes</li><li>Get information about dataframes</li><li>Access and update data</li><li>Detection and removal of missing values</li><li>Replacement of wrong data</li><li>Detection and removal of duplicates</li><li>Merging of dataframes</li> </ul> |
     | Day9 | Introduction to plotting | <ul><li>Scatterplots</li><li>Histograms</li><li>Barplots</li><li>Boxplots</li><li>Pie charts</li><li>Subplots</li> </ul> |
-
+    | Day10 | Introduction to Summary Statistics and Hypothesis Testing | <ul><li>Summarising numerical data</li><li>Summarising Categorical Data/li><li>Hypothesis testing and statistical tests</li><li>Correlation analysis</li><li>Linear Regression</li><li>One-way Anova</li> </ul> |
 
 4. **Exercises**: when you completed **both** the *statistical theory* and the *programming* lectures, you can continue to complete the 5 exercises that we have prepared for you. The exercises require you to know everything we have mentioned in the lectures (both programming and statistics) and consist in analysing and preparing some real-data on cognitive behaviour, as well as solving some coding exercises. We suggest you to solve each exercise in a separate `Jupyter Notebook`. 
 
