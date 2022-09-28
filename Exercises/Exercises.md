@@ -22,12 +22,16 @@ A seifer is a way to encode messages by mapping each letter to a different one. 
 ## 3. The RNA complementary (⭐️)
 Transcription is the process in which DNA is converted to RNA. To do this, it is necessary to map each letter in a DNA sequence to its complemet `A -> U`, `T -> A`, `G -> C` and `C -> G`. Define a function that takes an input a DNA sequence and returns the RNA complementary.
 
+## 4. Implement a Ceasar seifer (⭐️⭐️⭐️)
+Another way to encode messages is through a Ceasar seifer. Here you are given a message and a key, which is a number, and the encoding is done by shifting the number in *key* places. So, if the key = 2, then `A` becomes `C` and `B` becomes `D` (and so on).
 
-## 5. Cognitive data analysis (⭐️⭐️⭐️)
-We have collected behavioural and cognitive data from 100 people as part of a study called GBIT (Great Britain Intelligence Test). The data consists in their performance in three cognitive tasks, as well as their demographics. The data were anonymised and a basic processing was already completed. The aim of this exercise is to properly clean the data and run some statistical tests to analyse them. 
+## 5. Cognitive data analysis (⭐️⭐️⭐️⭐️)
+We have collected behavioural and cognitive data from 100 people as part of a study called GBIT (Great Britain Intelligence Test). The data consists in their performance in three cognitive tasks, as well as their demographics and measures of their mental health. This data are provided in two separate dataframes: `cognitive.csv` contains the results in the cognitive tasks, and `demographics.csv` contains the answers from questionnaires. The data were anonymised and a basic processing was already completed. The aim of this exercise is to properly clean the data and run some statistical tests to analyse them. 
 
     IMPORTANT: To be able to complete this exercise you must have completed the statistical theory and coding tutorial
 
 1. Import the data in the format of a `pandas` dataframe.
 2. Check the column headers, shape of the dataframe and types of columns. There is a column that should be an integer and is, instead a string. Detect that column and change the variable type.
-2. 
+3. Currently, the index of the dataframe is not easy to interpret. Change it and replace it with the values in the `user_id`
+3. Find out which columns have missing values and how many they are for each column. If a column is more than 50% NA then drop it. Once you have filtered the columns, filter the dataframe for the remaining rows without missing values. 
+4. Find out if there are duplicates in the dataframe. If there are duplicates, 
