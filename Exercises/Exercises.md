@@ -77,9 +77,14 @@ We have collected behavioural and cognitive data from 100 people as part of a st
 
     Once you have completed the analysis, try to interpret the results.
 
-7. *Age* is well-known to be associated to cognitive performance. Can you check whether there is any correlation between the age of participants and their performance in the cognitive tests? Which type of correlation test should you use?
+7. *Age* is well-known to be associated to cognitive performance. Can you check whether there is any correlation between the age of participants and their performance in the cognitive tests? What type of correlation test should you use?
+
 7. Another interesting thing to investigate is whether there is a difference in cognitive performance among the participants with different educations. To be able to do this, since the educational background are more than two, you need to run an **ANOVA**. Which *ANOVA* should you run?
 
-7. Do you think we can predict the score in different cognitive tasks based on the demographics? To find out, let's build one (or more) **multiple linear regression models** that try to predict the cognitive score in one (or more) tasks. Interpret the meaning of the output results.
+7. Do you think we can predict the score in different cognitive tasks based on the demographics? To find out, let's build one (or more) **multiple linear regression models** that try to predict the cognitive score in one (or more) tasks. 
+
+    **IMPORTANT**: It would be better to hot-encode the categorical variable for education and to input the age data in decades rather than as a conitnous variables. 
+
+    Interpret the meaning of the output results.
 
 7. A final analysis you can completed is to evaluate whether you can predict 
