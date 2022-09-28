@@ -47,7 +47,7 @@ In a DNA string you can have four different nucleotides: `A`, `C`, `T` and `G`. 
 4. Prints the number of individual nucleotides in each sequence
 
 
-## 8. Cognitive data analysis (⭐️⭐️⭐️⭐️)
+## 7. Cognitive data analysis (⭐️⭐️⭐️⭐️)
 We have collected behavioural and cognitive data from 100 people as part of a study called GBIT (Great Britain Intelligence Test). The data consists in their performance in three cognitive tasks, as well as their demographics and measures of their mental health. This data are provided in two separate dataframes: `cognitive.csv` contains the results in the cognitive tasks, and `demographics.csv` contains the answers from questionnaires. The data were anonymised and a basic processing was already completed. The aim of this exercise is to properly clean the data and run some statistical tests to analyse them. 
 
     IMPORTANT: To be able to complete this exercise you must have completed the statistical theory and coding tutorial
@@ -87,4 +87,4 @@ We have collected behavioural and cognitive data from 100 people as part of a st
 
     Interpret the meaning of the output results.
 
-7. A final analysis you can completed is to evaluate whether you can predict 
+7. A final analysis you can complete is to evaluate whether you can predict a binary label such 
