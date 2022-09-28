@@ -31,7 +31,7 @@ Another way to encode messages is through a Ceasar seifer. Here you are given a 
 
 **HINT #3**: if the *modulo* is too challenging, try with an *if* statement.
 
-## 5. Fix the separated message (⭐️⭐️⭐️)
+## 5. Fix the separated encoded message (⭐️⭐️⭐️)
 An encoded message was written in 5 separate papers and needs to be put together into a unique sentence, in order to be able to decode the message. The only information you know is that the last letter of each separate part of the sequence must correspond to the first letter of the following one. Implement a function that goes through the 5 separate strings and put them back together. There is one of these parts of the message that was accidentally written with a space between the letters - before adding that part to the unique sentence, remove the empty space.
 
 **HINT #1**: to test you function you can use the following five sequences -  `AGCJDE`,  `TGRSGH`,  `EHSUTJ`,  `HFRSKA`,  `JSHGDW`.
@@ -50,8 +50,10 @@ We have collected behavioural and cognitive data from 100 people as part of a st
 3. Currently, the index of the dataframe is not easy to interpret. Change it and replace it with the values in the `user_id`
 3. Find out which columns have missing values and how many there are for each column.  If a column is more than 50% NA then drop it. Most of the analysis cannot be completed if the participants don't have demographics. So, after filtering the columns, filter the questionnaire dataframe for the remaining rows without missing values. 
 4. Find out if there are duplicates in both dataframes. If there are two rows that are fully duplicated, then keep the second entry. In case of the questionnaire dataframe, if a column is duplicated in the  `user_id `,  `sex ` and  `Residence `, but not the others, then drop both rows. 
-5. The variable residence includes many different countries. Check how many people are from the United Kingdom and how many are from 
+5. The variable residence includes many different countries. Check how many people are from the United Kingdom and how many are from other countries. As you can see, most of the people are from the UK. Replace the values in that column with `UK` for all people from United Kingdom, and `Other` for all the other countries.
 5. Until now, you have worked with two separate dartaframes. But to be able to run the next steps of the analysis, you need to `merge` the two dataframes together. Merge together the dataframes based on the values in the `user_id`.
 5. Let's complete some descriptive statistics on the data. Check:
     - The distribution of the scores in the different cognitive tests using an histogram and boxplot. Since you have 3 different cognitive tests, try to create a unique figure with 3 subplots. 
-    - The overall counts of the demographics: how many people do you have for each `sex`, `ethnicity`, occupation
+    - If you see any outliers in the boxplot, use the `rank_inverse_transform` function explained in the lectures to remove those outliers.
+    - Compare the `mean` and `median` of the cognitive scores values before and after the `rank_inverse_transform`. What do you notice?
+    - Obtain the overall counts of the demographics: how many people do you have for each `sex`, `ethnicity`, `occupation`? Try to represent it using a pie chart and/or a bar chart. 
