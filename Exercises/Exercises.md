@@ -38,9 +38,17 @@ An encoded message was written in 5 separate papers and needs to be put together
 
 **HINT #2**: to be able to solve the exercise you need to use a *while* loop.
 
+## 6. Find the GC and individual nucleotides counts (⭐️)
+In a DNA string you can have four different nucleotides: `A`, `C`, `T` and `G`. Knowing the number of each individual nucleotides and the percentage of GC-content (G **or** C nucleotides) is important. Define a function that takes as input a dictionary, with as key the name of a sequence and as value the DNA sequence and:
+1. Calculates the number of individual nucleotides in each sequence 
+2. Calculates the percentage of GC-content in each individual sequence 
+3. Reurns the percentage and the name of the sequence with the highest percentage of GC-content.
+4. Prints the number of individual nucleotides in each sequence
+
+## 7. Find the motif (⭐️⭐️)
 
 
-## 6. Cognitive data analysis (⭐️⭐️⭐️⭐️)
+## 8. Cognitive data analysis (⭐️⭐️⭐️⭐️)
 We have collected behavioural and cognitive data from 100 people as part of a study called GBIT (Great Britain Intelligence Test). The data consists in their performance in three cognitive tasks, as well as their demographics and measures of their mental health. This data are provided in two separate dataframes: `cognitive.csv` contains the results in the cognitive tasks, and `demographics.csv` contains the answers from questionnaires. The data were anonymised and a basic processing was already completed. The aim of this exercise is to properly clean the data and run some statistical tests to analyse them. 
 
     IMPORTANT: To be able to complete this exercise you must have completed the statistical theory and coding tutorial
