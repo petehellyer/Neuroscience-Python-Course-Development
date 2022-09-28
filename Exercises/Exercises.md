@@ -51,16 +51,35 @@ In a DNA string you can have four different nucleotides: `A`, `C`, `T` and `G`. 
 We have collected behavioural and cognitive data from 100 people as part of a study called GBIT (Great Britain Intelligence Test). The data consists in their performance in three cognitive tasks, as well as their demographics and measures of their mental health. This data are provided in two separate dataframes: `cognitive.csv` contains the results in the cognitive tasks, and `demographics.csv` contains the answers from questionnaires. The data were anonymised and a basic processing was already completed. The aim of this exercise is to properly clean the data and run some statistical tests to analyse them. 
 
     IMPORTANT: To be able to complete this exercise you must have completed the statistical theory and coding tutorial
+ 
+### Data cleaning and processing
 
 1. Import the data in the format of a `pandas` dataframes.
 2. Check the column headers, shape of the dataframe and types of columns. There is a column that should be an integer and is, instead a string. Detect that column and change the variable type.
 3. Currently, the index of the dataframe is not easy to interpret. Change it and replace it with the values in the `user_id`
 3. Find out which columns have missing values and how many there are for each column.  If a column is more than 50% NA then drop it. Most of the analysis cannot be completed if the participants don't have demographics. So, after filtering the columns, filter the questionnaire dataframe for the remaining rows without missing values. 
 4. Find out if there are duplicates in both dataframes. If there are two rows that are fully duplicated, then keep the second entry. In case of the questionnaire dataframe, if a column is duplicated in the  `user_id `,  `sex ` and  `Residence `, but not the others, then drop both rows. 
-5. The variable residence includes many different countries. Check how many people are from the United Kingdom and how many are from other countries. As you can see, most of the people are from the UK. Replace the values in that column with `UK` for all people from United Kingdom, and `Other` for all the other countries.
+5. The variable residence includes many different countries. Check how many people are from the United Kingdom and how many are from other countries. As you can see, there aren't many people from each one of the other individual countries. Replace the values in that column with `UK` for all people from United Kingdom, and `Other` for all the other countries.
 5. Until now, you have worked with two separate dartaframes. But to be able to run the next steps of the analysis, you need to `merge` the two dataframes together. Merge together the dataframes based on the values in the `user_id`.
-5. Let's complete some descriptive statistics on the data. Check:
+
+### Data analysis
+
+1. Let's complete some descriptive statistics on the data. Check:
     - The distribution of the scores in the different cognitive tests using an histogram and boxplot. Since you have 3 different cognitive tests, try to create a unique figure with 3 subplots. 
     - If you see any outliers in the boxplot, use the `rank_inverse_transform` function explained in the lectures to remove those outliers.
     - Compare the `mean` and `median` of the cognitive scores values before and after the `rank_inverse_transform`. What do you notice?
     - Obtain the overall counts of the demographics: how many people do you have for each `sex`, `ethnicity`, `occupation`? Try to represent it using a pie chart and/or a bar chart. 
+6. The `words memory` task is a language based task, so we would expect partcipants from the UK to perform better, or at least different, compared to participants from other non-english speaking countries. To verify this, we can run a **t-test**. Which t-test is the most appropriate? Check the *decision tree*.
+
+    **IMPORTANT #1**: in order to be able to run a t-test, you need to check if the data are normally distributed. Do to this, you can use of the **normality** tests explained in the stats material.
+
+    **IMPORTANT #2**: Since you are completing multiple comparisons at once, you need to correct the p-values for multiple comparisons. Which methods would you use among those explained in the lecture?
+
+    Once you have completed the analysis, try to interpret the results.
+
+7. *Age* is well-known to be associated to cognitive performance. Can you check whether there is any correlation between the age of participants and their performance in the cognitive tests? Which type of correlation test should you use?
+7. Another interesting thing to investigate is whether there is a difference in cognitive performance among the participants with different educations. To be able to do this, since the educational background are more than two, you need to run an **ANOVA**. Which *ANOVA* should you run?
+
+7. Do you think we can predict the score in different cognitive tasks based on the demographics? To find out, let's build one (or more) **multiple linear regression models** that try to predict the cognitive score in one (or more) tasks. Interpret the meaning of the output results.
+
+7. A final analysis you can completed is to evaluate whether you can predict 
