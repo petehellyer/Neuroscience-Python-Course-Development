@@ -38,14 +38,13 @@ An encoded message was written in 5 separate papers and needs to be put together
 
 **HINT #2**: to be able to solve the exercise you need to use a *while* loop.
 
-## 6. Find the GC and individual nucleotides counts (⭐️)
+## 6. Find the GC-contnent, the individual nucleotides counts and the ATAT motif (⭐️)
 In a DNA string you can have four different nucleotides: `A`, `C`, `T` and `G`. Knowing the number of each individual nucleotides and the percentage of GC-content (G **or** C nucleotides) is important. Define a function that takes as input a dictionary, with as key the name of a sequence and as value the DNA sequence and:
 1. Calculates the number of individual nucleotides in each sequence 
 2. Calculates the percentage of GC-content in each individual sequence 
-3. Reurns the percentage and the name of the sequence with the highest percentage of GC-content.
+3. Checks whether the sequence contains the motif `ATAT` and if it does it prints that the `sequence_name` has the motif.
+3. Returns the percentage and the name of the sequence with the highest percentage of GC-content.
 4. Prints the number of individual nucleotides in each sequence
-
-## 7. Find the motif (⭐️⭐️)
 
 
 ## 8. Cognitive data analysis (⭐️⭐️⭐️⭐️)
