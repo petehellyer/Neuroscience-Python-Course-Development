@@ -24,4 +24,10 @@ Transcription is the process in which DNA is converted to RNA. To do this, it is
 
 
 ## 5. Cognitive data analysis (⭐️⭐️⭐️)
-We have collected behavioural and cognitive data from 100 people.
+We have collected behavioural and cognitive data from 100 people as part of a study called GBIT (Great Britain Intelligence Test). The data consists in their performance in three cognitive tasks, as well as their demographics. The data were anonymised and a basic processing was already completed. The aim of this exercise is to properly clean the data and run some statistical tests to analyse them. 
+
+    IMPORTANT: To be able to complete this exercise you must have completed the statistical theory and coding tutorial
+
+1. Import the data in the format of a `pandas` dataframe.
+2. Check the column headers, shape of the dataframe and types of columns. There is a column that should be an integer and is, instead a string. Detect that column and change the variable type.
+2. 
