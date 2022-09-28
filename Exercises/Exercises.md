@@ -74,15 +74,15 @@ We have collected behavioural and cognitive data from 100 people as part of a st
     - Obtain the overall counts of the demographics: how many people do you have for each `sex`, `ethnicity`, `occupation`? Try to represent it using a pie chart and/or a bar chart. 
 6. The `words memory` task is a language based task, so we would expect partcipants from the UK to perform better, or at least different, compared to participants from other non-english speaking countries. To verify this, we can run a **t-test**. Which t-test is the most appropriate? Check the *decision tree*.
 
-    **IMPORTANT #1**: in order to be able to run a t-test, you need to check if the data are normally distributed. Do to this, you can use of the **normality** tests explained in the stats material.
+    **IMPORTANT #1**: in order to be able to run a t-test, you need to check if the data are normally distributed. To do this, you can use of the **normality** tests explained in the stats material.
 
-    **IMPORTANT #2**: Since you are completing multiple comparisons at once, you need to correct the p-values for multiple comparisons. Which methods would you use among those explained in the lecture?
+    **IMPORTANT #2**: Since you are completing multiple comparisons at once, you need to correct the p-values for multiple comparisons. How would you do it?
 
     Once you have completed the analysis, try to interpret the results.
 
 7. *Age* is well-known to be associated to cognitive performance. Can you check whether there is any correlation between the age of participants and their performance in the cognitive tests? What type of correlation test should you use?
 
-7. Another interesting thing to investigate is whether there is a difference in cognitive performance among the participants with different educations. To be able to do this, since the educational background are more than two, you need to run an **ANOVA**. Which *ANOVA* should you run?
+7. Another interesting thing to investigate is whether there is a difference in cognitive performance among the participants with different educations. To be able to do this, since the educational backgrounds are more than two, you need to run an **ANOVA**. Which *ANOVA* should you run?
 
 7. Do you think we can predict the score in different cognitive tasks based on the demographics? To find out, let's build one (or more) **multiple linear regression models** that try to predict the cognitive score in one (or more) tasks. 
 
@@ -90,4 +90,3 @@ We have collected behavioural and cognitive data from 100 people as part of a st
 
     Interpret the meaning of the output results.
 
-7. A final analysis you can complete is to evaluate whether you can predict a binary label such 
