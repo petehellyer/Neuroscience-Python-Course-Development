@@ -31,7 +31,11 @@ Another way to encode messages is through a Ceasar seifer. Here you are given a 
 
 **HINT #3**: if the *modulo* is too challenging, try with an *if* statement.
 
-## 5. Cognitive data analysis (⭐️⭐️⭐️⭐️)
+## 5. Fix the separated sentence (⭐️⭐️⭐️)
+A sentence was written in 5 separate files and needs to be put together into a unique sentence. 
+
+
+## 6. Cognitive data analysis (⭐️⭐️⭐️⭐️)
 We have collected behavioural and cognitive data from 100 people as part of a study called GBIT (Great Britain Intelligence Test). The data consists in their performance in three cognitive tasks, as well as their demographics and measures of their mental health. This data are provided in two separate dataframes: `cognitive.csv` contains the results in the cognitive tasks, and `demographics.csv` contains the answers from questionnaires. The data were anonymised and a basic processing was already completed. The aim of this exercise is to properly clean the data and run some statistical tests to analyse them. 
 
     IMPORTANT: To be able to complete this exercise you must have completed the statistical theory and coding tutorial
