@@ -6,7 +6,7 @@ The level of complexity is described by the number of stars next to the title - 
 Transcription is the process in which DNA is converted to RNA. To do this, it is necessary to map each letter in a DNA sequence to its complemet `A -> U`, `T -> A`, `G -> C` and `C -> G`. Define a function that takes an input a DNA sequence and returns the RNA complementary.
 
 ## 2. The prime numbers (⭐️)
-Define a function that takes as input a list of numbers and returns only those that are prime numbers and how many they are. Call the function multiple times and check the output to be sure that it is working as expected.  
+Define a function that takes as input a list of numbers and returns only those that are prime and that specifies how many they are. Call the function multiple times and check the output to be sure that it is working as expected.  
 
 ## 2. Find the GC-contnent, the individual nucleotides counts and the ATAT motif (⭐️)
 In a DNA string you can have four different nucleotides: `A`, `C`, `T` and `G`. Knowing the number of each individual nucleotides and the percentage of GC-content (G **or** C nucleotides) is important. Define a function that takes as input a dictionary, with as key the name of a sequence and as value the DNA sequence and:
@@ -27,8 +27,8 @@ Use the function to check that it works properly
 
 **HINT**: To solve the exercise, you have to acess the file, and use a *for* loop and *if* statement.
 
-## 4. Implement an abtash cypher (⭐️⭐️)
-A cypher is a way to encode messages by mapping each letter to a different one. One ancient way to do this is called `the abtash cypher`. This cypher uses as key an inverted alphabet, so that `A` becomes  `Z`,  `B` becomes `Y`. Write two functions that implements the encoding and decoding process of the cypher. 
+## 4. Implement an atbash cypher (⭐️⭐️)
+A cypher is a way to encode messages by mapping each letter to a different one. One ancient way to do this is called `the atbash cypher`. This cypher uses as key an inverted alphabet, so that `A` becomes  `Z`,  `B` becomes `Y`. Write two functions that implements the encoding and decoding process of the cypher. 
 
 **IMPORTANT** -> the cypher must:
 1. Ignore elements in a message that are not letter (e.g. numbers or spaces)
@@ -46,7 +46,7 @@ Another way to encode messages is through a Ceasar cypher. Here you are given a 
 **HINT #3**: if the *modulo* is too challenging, try with an *if* statement.
 
 ## 6. Fix the separated encoded message (⭐️⭐️⭐️)
-An encoded message was written in 5 separate papers and needs to be put together into a unique sentence, in order to be able to decode the message. The only information you know is that the last letter of each separate part of the sequence must correspond to the first letter of the following one. Implement a function that goes through the 5 separate strings and put them back together. There is one of these parts of the message that was accidentally written with a space between the letters - before adding that part to the unique sentence, remove the empty space.
+An encoded message was written in 5 separate papers and needs to be put together into a unique sentence, in order to be able to decode the message. The only information you know is that the last letter of each sequence must correspond to the first letter of the following one. Implement a function that goes through the 5 separate strings and put them back together. There is one of these sequences that was accidentally written with a space between the letters - before adding that part to the unique sentence, remove the empty space.
 
 **HINT #1**: to test you function you can use the following five sequences -  `AGCJDE`,  `TGRSGH`,  `EHSUTJ`,  `HFRSKA`,  `JSHGD W`. The output should be:  `TGRSGHHFRSKAAGCJDEEHSUTJJSHGDW`
 
