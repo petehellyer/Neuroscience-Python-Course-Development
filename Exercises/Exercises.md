@@ -52,8 +52,56 @@ An encoded message was written in 5 separate papers and needs to be put together
 
 **HINT #2**: to be able to solve the exercise you need to use a *while* loop.
 
+## 7 Analysis of Taylor Swift's songs (⭐️⭐️⭐️)
 
-## 7. Cognitive data analysis (⭐️⭐️⭐️⭐️)
+Since Taylor Swift is one of the best artists of our time, we thought she deserved a spotlight in our exercises. The data presented in this exercise is collected via Spotify and it contains all of her songs/albums up until 2020, together with information about each song such as popularity and danceability. In this exercise we want you to analyse some of this data and find out more about Taylor. Who knows, you might even discover a song or two that you like? 
+
+    IMPORTANT: To be able to complete this exercise you must have completed the statistical theory and coding tutorial
+
+Below is a description of the dataset.
+
+- name - Name of song
+- album - Name of album
+- artist - Name of artist/s involved
+- release_date - Release date of album
+- length - Song length in milliseconds
+- popularity - Percent popularity of the song based on Spotify's algorithm (possibly the number of stream at a certain period of time)
+- danceability - How suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity
+- acousticness - How acoustic a song is
+- energy - A perceptual measure of intensity and activity
+- instrumentalness - Te amount of vocals in the song
+- liveness - Probability that the song was recorded with a live audience
+- loudness - Tdency o of music to be recorded at steadily higher volumes
+- speechiness - Presence of spoken words in a track (if the speechiness of a song is above 0.66, it is probably made of spoken words, a score between 0.33 and 0.66 is a song that may contain both music and words, and a score below 0.33 means the song does not have any speech)
+- valence - A measure of how happy or sad the song sounds
+- tempo - Beats per minute
+
+Note to Swifties: Unfortuntely the dataset does not contain the re-recorded albums (e.g. Taylor's Versions), though that might be a blessing in disguise as the 10-minute version of All Too Well would have likely skewed your statistical results. 
+
+Using the dataset, address the following exercises: 
+
+### Exploratory Analsysis
+1. Read the csv file using a dataframe
+2. What are Taylor's most popular and least popular songs?
+3. Which album had the highest popularity and when was it published?
+4. Which songs are the most danceable?
+5. Are danceable songs more popular than accoustic ones?
+6. Notice that the length of the songs is stored in milliseconds. Although accurate, those measures are not very interpretable. Figure out a way to convert the song length to minutes, then find her longest song. Furthermore, correlate the song length with a measure of popularity. Are long songs more popular?
+7. Which songs are more popular, her sad songs or her happy songs?
+
+HINT: The quickest way to understand your data is to visualize it
+
+### Data Analysis
+
+Now that we had a good look at the data, we might wonder, what makes a song popular? Is it its tempo, its danceability or it its length? Or perhaps is it mainly the lyrics and the songrwriting that make her songs popular?
+
+1. Correlate different song features and find out which ones are the most closely related and how.
+2. Predict the popularity of a song using its tempo, danceability and length via a linear regression. Also control for the album, as some albums are more popular than others. Feel free to include other features that you may have found useful in the previous analysis
+3. Use an ANOVA to determine whether there is a statistically significant difference in popularity and speechiness across albums.
+
+HINT: Before you run any of your analyses, make sure you follow all the appropiate data visualisation and pre-processing steps, such as checking for missing values, removing outliers and determining whether or not your data is normally distributed.
+
+## 8. Cognitive data analysis (⭐️⭐️⭐️⭐️)
 We have collected behavioural and cognitive data from 100 people as part of a study called GBIT (Great Britain Intelligence Test). The data consists in their performance in three cognitive tasks, as well as their demographics and measures of their mental health. This data are provided in two separate dataframes: `cognitive.csv` contains the results in the cognitive tasks, and `demographics.csv` contains the answers from questionnaires. The data were anonymised and a basic processing was already completed. The aim of this exercise is to properly clean the data and run some statistical tests to analyse them. 
 
     IMPORTANT: To be able to complete this exercise you must have completed the statistical theory and coding tutorial
