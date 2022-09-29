@@ -64,7 +64,11 @@
 
 4. If the command worked correctly, a webpage should be opened automatically with a jupyter lab page. Now, press on the file called `Day1.ipnb` and start with the lectures.
 
+## Extra resources
 
+If you have never used Jupyter Notebook before, it might be useful going through this tutorial. This will teach you about its functionalities, and it will be of great help as you progress through the course.
+
+https://www.dataquest.io/blog/jupyter-notebook-tutorial/
 
 If you have any installation issue, write an email to Valentina Giunchiglia (v.giunchiglia20@imperial.ac.uk) AND Dragos Gruia (dragos-cristian.gruia19@imperial.ac.uk)
 
