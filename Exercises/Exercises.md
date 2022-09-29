@@ -8,7 +8,7 @@ Transcription is the process in which DNA is converted to RNA. To do this, it is
 ## 2. The prime numbers (⭐️)
 Define a function that takes as input a list of numbers and returns only those that are prime and that specifies how many they are. Call the function multiple times and check the output to be sure that it is working as expected.  
 
-## 2. Find the GC-contnent, the individual nucleotides counts and the ATAT motif (⭐️)
+## 3. Find the GC-contnent, the individual nucleotides counts and the ATAT motif (⭐️)
 In a DNA string you can have four different nucleotides: `A`, `C`, `T` and `G`. Knowing the number of each individual nucleotides and the percentage of GC-content (G **or** C nucleotides) is important. Define a function that takes as input a dictionary, with as key the name of a sequence and as value the DNA sequence and:
 1. Calculates the number of individual nucleotides in each sequence 
 2. Calculates the percentage of GC-content in each individual sequence 
@@ -17,7 +17,7 @@ In a DNA string you can have four different nucleotides: `A`, `C`, `T` and `G`. 
 4. Prints the number of individual nucleotides in each sequence
 
 
-## 3. Parse a corrupted file (⭐️⭐️)
+## 4. Parse a corrupted file (⭐️⭐️)
 There is a text file that is a matrix where each row in the matrix is a row in the file and the columns in the matrix are separated by  `\t `. The matrix should only have numbers, but, because of some internal errors, the matrix has been corrupted and some of the lines contain words. Write a *function* that:
 1. Import the file 
 2. Excludes the rows with words
@@ -27,7 +27,7 @@ Use the function to check that it works properly
 
 **HINT**: To solve the exercise, you have to acess the file, and use a *for* loop and *if* statement.
 
-## 4. Implement an atbash cypher (⭐️⭐️)
+## 5. Implement an atbash cypher (⭐️⭐️)
 A cypher is a way to encode messages by mapping each letter to a different one. One ancient way to do this is called `the atbash cypher`. This cypher uses as key an inverted alphabet, so that `A` becomes  `Z`,  `B` becomes `Y`. Write two functions that implements the encoding and decoding process of the cypher. 
 
 **IMPORTANT** -> the cypher must:
@@ -36,7 +36,7 @@ A cypher is a way to encode messages by mapping each letter to a different one. 
 
 **HINT**: To be able to solve this exercise you need to use a *dictionary* and string manipulation
 
-## 5. Implement a Ceasar cypher (⭐️⭐️⭐️)
+## 6. Implement a Ceasar cypher (⭐️⭐️⭐️)
 Another way to encode messages is through a Ceasar cypher. Here you are given a message and a key, which is a number, and the encoding is done by shifting the number in *key* places. So, if the key = 2, then `A` becomes `C`,  `B` becomes `D` and  `Z` becomes  `B` (and so on). Implement the encoding function (and as a bonus the decoding) that takes as input a message and a key (with key having as default value 3) and returns the encoded message. 
 
 **HINT #1**: to solve it try to use a *dictionary*
