@@ -45,14 +45,14 @@ Another way to encode messages is through a Ceasar cypher. Here you are given a 
 
 **HINT #3**: if the *modulo* is too challenging, try with an *if* statement.
 
-## 6. Fix the separated encoded message (⭐️⭐️⭐️)
+## 7. Fix the separated encoded message (⭐️⭐️⭐️)
 An encoded message was written in 5 separate papers and needs to be put together into a unique sentence, in order to be able to decode the message. The only information you know is that the last letter of each sequence must correspond to the first letter of the following one. Implement a function that goes through the 5 separate strings and put them back together. There is one of these sequences that was accidentally written with a space between the letters - before adding that part to the unique sentence, remove the empty space.
 
 **HINT #1**: to test you function you can use the following five sequences -  `AGCJDE`,  `TGRSGH`,  `EHSUTJ`,  `HFRSKA`,  `JSHGD W`. The output should be:  `TGRSGHHFRSKAAGCJDEEHSUTJJSHGDW`
 
 **HINT #2**: to be able to solve the exercise you need to use a *while* loop.
 
-## 7 Analysis of Taylor Swift's songs (⭐️⭐️⭐️)
+## 8. Analysis of Taylor Swift's songs (⭐️⭐️⭐️)
 
 Since Taylor Swift is one of the best artists of our time, we thought she deserved a spotlight in our exercises. The data presented in this exercise is collected via Spotify and it contains all of her songs/albums up until 2020, together with information about each song such as popularity and danceability. In this exercise we want you to analyse some of this data and find out more about Taylor. Who knows, you might even discover a song or two that you like? 
 
@@ -101,7 +101,7 @@ Now that we had a good look at the data, we might wonder, what makes a song popu
 
 HINT: Before you run any of your analyses, make sure you follow all the appropiate data visualisation and pre-processing steps, such as checking for missing values, removing outliers and determining whether or not your data is normally distributed.
 
-## 8. Cognitive data analysis (⭐️⭐️⭐️⭐️)
+## 9. Cognitive data analysis (⭐️⭐️⭐️⭐️)
 We have collected behavioural and cognitive data from 100 people as part of a study called GBIT (Great Britain Intelligence Test). The data consists in their performance in three cognitive tasks, as well as their demographics and measures of their mental health. This data are provided in two separate dataframes: `cognitive.csv` contains the results in the cognitive tasks, and `demographics.csv` contains the answers from questionnaires. The data were anonymised and a basic processing was already completed. The aim of this exercise is to properly clean the data and run some statistical tests to analyse them. 
 
     IMPORTANT: To be able to complete this exercise you must have completed the statistical theory and coding tutorial
