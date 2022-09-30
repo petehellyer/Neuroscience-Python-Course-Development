@@ -14,7 +14,7 @@ You are expected to go trough the material in the following order:
 
 2. **Device set-up**: there are two documents called `mac_set-up` and `windows_set-up`. Follow the instructions in the document that correspond to your operative system. If you have any questions about the set-up specifically, you can contact Dragos Gruia and Valentina Giunchiglia.
 
-3. **Introduction to Python**: we prepared 10 separate lectures on the most important concepts of programming in Python. The lecture are called DayN (where N correspond to the number of the day) and are already in the order in which you should complete them.
+3. **Introduction to Python**: we prepared 10 separate lectures on the most important concepts of programming in Python. The lecture are called LectureN (where N correspond to the number of the lecture) and are already in the order in which you should complete them.
     > **IMPORTANT**: don't skip lectures, but do follow the order we provided, because following lectures are based on previously taught material.
 
     > **IMPORTANT 2**: The lecture are characterised by a combination of *pratical theory* and *code here* sections. The *code here* sections require you to apply what you have learnt in the lectures through small exercises.
