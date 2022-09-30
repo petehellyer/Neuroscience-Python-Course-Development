@@ -1,6 +1,6 @@
 
 
-def mean(var1, var2, var3): #Name of the function
+def mean_script(var1, var2, var3): #Name of the function
     '''
     The aim of the function is to calculate the mean
     of three given input variables.
