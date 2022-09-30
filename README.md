@@ -23,16 +23,16 @@ You are expected to go trough the material in the following order:
 
     | Lecture | Title | Topic |
     | :---: | :---: |:--- |
-    | Day1 | Introduction to Python syntax and variables | <ul><li>Jupyter Notebook</li><li>Introduction to Bash</li><li>Variables</li><li>Common Python Erros </li><li>Relational Operators</li><li>Logical Operators</li><li>Working with Files</li> </ul>
-    | Day2 | Introduction to Functions |<ul><li>Structure and application of functions</li> </ul>|
-    | Day3 | Introduction to Lists and Arrays |<ul><li>Importing Modules</li><li>Extract elements from lists</li><li>Lists update</li><li>Basic operations with lists</li><li>Extract elements from arrays</li><li>Arrays dimentions and shapes</li><li>Generation of arrays</li><li>Mathematical operations with arrays</li> </ul> |
-    | Day4| Introduction to Conditional Statements| <ul><li>Conditional statements structure and application</li><li>Truthiness and conditional statement</li> </ul>|
-    | Day5| introduction to Loops | <ul><li>Introduction to for loops</li><li>Looping over lists</li><li>Looping over strings</li><li>Range function</li><li>Enumerate function</li><li>Continue and break</li><li>Nested loops</li><li>Introduction to While</li> </ul> |
-    | Day6 | Introduction to Strings manipulation | <ul><li>Indexing and iterating through strings</li><li>String methods</li><li>Cleaning messy strings</li> </ul> |
-    | Day7 | Introduction to Dictionaries | <ul><li>Dictionary methods</li><li>Iterating through dictionaries</li> </ul> |
-    | Day8 | Introduction to Dataframes | <ul><li> Create dataframes</li><li>Visualize dataframes</li><li>Get information about dataframes</li><li>Access and update data</li><li>Detection and removal of missing values</li><li>Replacement of wrong data</li><li>Detection and removal of duplicates</li><li>Merging of dataframes</li> </ul> |
-    | Day9 | Introduction to plotting | <ul><li>Scatterplots</li><li>Histograms</li><li>Barplots</li><li>Boxplots</li><li>Pie charts</li><li>Subplots</li> </ul> |
-    | Day10 | Introduction to Summary Statistics and Hypothesis Testing | <ul><li>Summarising numerical data</li><li>Summarising Categorical Data</li><li>Hypothesis testing and statistical tests</li><li>Correlation analysis</li><li>Linear Regression</li><li>One-way Anova</li> </ul> |
+    | Lecture1 | Introduction to Python syntax and variables | <ul><li>Jupyter Notebook</li><li>Introduction to Bash</li><li>Variables</li><li>Common Python Erros </li><li>Relational Operators</li><li>Logical Operators</li><li>Working with Files</li> </ul>
+    | Lecture2 | Introduction to Functions |<ul><li>Structure and application of functions</li> </ul>|
+    | Lecture3 | Introduction to Lists and Arrays |<ul><li>Importing Modules</li><li>Extract elements from lists</li><li>Lists update</li><li>Basic operations with lists</li><li>Extract elements from arrays</li><li>Arrays dimentions and shapes</li><li>Generation of arrays</li><li>Mathematical operations with arrays</li> </ul> |
+    | Lecture4| Introduction to Conditional Statements| <ul><li>Conditional statements structure and application</li><li>Truthiness and conditional statement</li> </ul>|
+    | Lecture5| introduction to Loops | <ul><li>Introduction to for loops</li><li>Looping over lists</li><li>Looping over strings</li><li>Range function</li><li>Enumerate function</li><li>Continue and break</li><li>Nested loops</li><li>Introduction to While</li> </ul> |
+    | Lecture6 | Introduction to Strings manipulation | <ul><li>Indexing and iterating through strings</li><li>String methods</li><li>Cleaning messy strings</li> </ul> |
+    | Lecture7 | Introduction to Dictionaries | <ul><li>Dictionary methods</li><li>Iterating through dictionaries</li> </ul> |
+    | Lecture8 | Introduction to Dataframes | <ul><li> Create dataframes</li><li>Visualize dataframes</li><li>Get information about dataframes</li><li>Access and update data</li><li>Detection and removal of missing values</li><li>Replacement of wrong data</li><li>Detection and removal of duplicates</li><li>Merging of dataframes</li> </ul> |
+    | Lecture9 | Introduction to plotting | <ul><li>Scatterplots</li><li>Histograms</li><li>Barplots</li><li>Boxplots</li><li>Pie charts</li><li>Subplots</li> </ul> |
+    | Lecture10 | Introduction to Summary Statistics and Hypothesis Testing | <ul><li>Summarising numerical data</li><li>Summarising Categorical Data</li><li>Hypothesis testing and statistical tests</li><li>Correlation analysis</li><li>Linear Regression</li><li>One-way Anova</li> </ul> |
 
 4. **Exercises**: when you completed **both** the *statistical theory* and the *programming* lectures, you can continue to complete the 5 exercises that we have prepared for you. The exercises require you to know everything we have mentioned in the lectures (both programming and statistics) and consist in analysing and preparing some real-data on cognitive behaviour, as well as solving some coding exercises. We suggest you to solve each exercise in a separate `Jupyter Notebook`. 
 
