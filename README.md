@@ -12,7 +12,7 @@ You are expected to go trough the material in the following order:
 
     You can access a stats refresher at this [link](https://tinyurl.com/SEDICL) - to access you need to use your Imperial Email
 
-    > **IMPORTANT**: to be able to complete the last day of the Python lectures (Day10 on statistics), you must have completed the statistical theory. You can work on the the other 9 coding lectures in parallel with the statistical theory, if you prefer.
+    > **IMPORTANT**: to be able to complete the last day of the Python lectures (Lecture10 on statistics), you must have completed the statistical theory. You can work on the the other 9 coding lectures in parallel with the statistical theory, if you prefer.
 
 2. **Device set-up**: there are two documents called `mac_set-up` and `windows_set-up`. Follow the instructions in the document that correspond to your operative system. If you have any questions about the set-up specifically, you can join the **drop-in session with Dragos and Valentina on Thursday 6th of October from 4.30PM to 5.30PM**
 
