@@ -23,7 +23,7 @@ You are expected to go trough the material in the following order:
 
     | Lecture | Title | Topic |
     | :---: | :---: |:--- |
-    | Lecture1 | Introduction to Python syntax and variables | <ul><li>Jupyter Notebook</li><li>Introduction to Bash</li><li>Variables</li><li>Common Python Erros </li><li>Relational Operators</li><li>Logical Operators</li><li>Working with Files</li> </ul>
+    | Lecture1 | Introduction to Python syntax and variables | <ul><li>Jupyter Notebook</li><li>Introduction to Bash</li><li>Variables</li><li>Common Python Erros </li><li>Relational Operators</li><li>Logical Operators</li><li>Working with Files</li><li>Introduction to python scripts</li><li>Debugging </li></ul> |
     | Lecture2 | Introduction to Functions |<ul><li>Structure and application of functions</li> </ul>|
     | Lecture3 | Introduction to Lists and Arrays |<ul><li>Importing Modules</li><li>Extract elements from lists</li><li>Lists update</li><li>Basic operations with lists</li><li>Extract elements from arrays</li><li>Arrays dimentions and shapes</li><li>Generation of arrays</li><li>Mathematical operations with arrays</li> </ul> |
     | Lecture4| Introduction to Conditional Statements| <ul><li>Conditional statements structure and application</li><li>Truthiness and conditional statement</li> </ul>|
