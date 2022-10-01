@@ -20,6 +20,7 @@ Pip is a useful package manager which allows us to download all of the extra mod
 5. to install the packages you need, you have to write the following commands in one cell (or chunk of code) of the jupyer:
 
     `%bash`
+    
     `conda install numpy pandas matplotlib`
     
     Reply `yes` or `y` when asked and press  `Enter `
