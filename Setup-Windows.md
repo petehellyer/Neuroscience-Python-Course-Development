@@ -49,4 +49,5 @@ https://www.dataquest.io/blog/jupyter-notebook-tutorial/
 
 
 If you have any installation issue, write an email to Valentina Giunchiglia (v.giunchiglia20@imperial.ac.uk) AND Dragos Gruia (dragos-cristian.gruia19@imperial.ac.uk)
+
 **IMPORTANT: There will be a 1 hour drop-in session on Thursday 6th October - 4.30PM to 5.30PM to help with any installation issues**
