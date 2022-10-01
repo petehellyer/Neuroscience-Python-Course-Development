@@ -14,20 +14,31 @@ Pip is a useful package manager which allows us to download all of the extra mod
 
 ## Step 3: Install Jupyter Notebook
 1. Now that you have pip, we can use that to install jupyter notebook. This is the place where will write and execute all the Python code. We chose this as it provides a very nice interface and it is easy to use if you are a beginner.
-2. Go to your `Command Line` and write `pip install jupyter`.
-3. To Open `Jupyter` simply type `jupyter` and enter, in `Command Line`
+2. Open a terminal by selecting the `Terminal` app from the Windows Menu
+2. Once the terminal (or command line) is open, write `pip install jupyter` and press `Enter`
+3. To Open `Jupyter` simply type `jupyter` and `Enter`, in `Command Line`
 4. To create a new Notebook, click on New (upper right side of the screen) and select Python3 (ipykernel). You can now use this to write your own code. Type `print('Hello World')` and click the `Run` button. If you don't get any errors it means you are all set up and ready to go.
 5. to install the packages you need, you have to write the following commands in one cell (or chunk of code) of the jupyer:
 
     `%bash`
     
-    `conda install numpy pandas matplotlib`
+    `pip install numpy pandas matplotlib`
     
     Reply `yes` or `y` when asked and press  `Enter `
 
 ## Step 4: Open the Lecture Materials
+1. Open a terminal by selecting the `Terminal` app from the Windows Menu
+2. Copy the following commands and press  `Enter ` at the end of each command
 
-1. If everything worked well, you should now be able to open the programming materials we created. To do so, press on the file called `Day1.ipnb` and start with the lectures.
+     `cd`
+
+     `cd Desktop/`
+
+     `git clone https://github.com/dragos-gruia/MSc-Neuroscience-Python-Course-Development.git`
+
+     `cd MSc-Neuroscience-Python-Course-Development`
+3. Once it is done downlaoding, type `jupyter` and `Enter`. This should open a Jupyter interface.
+4. If everything worked well, you should now be able to see and open the programming materials we created. To do so, press on the file called `Lecture1.ipnb` and start with the lectures.
 
 
 ## Extra resources
@@ -38,4 +49,4 @@ https://www.dataquest.io/blog/jupyter-notebook-tutorial/
 
 
 If you have any installation issue, write an email to Valentina Giunchiglia (v.giunchiglia20@imperial.ac.uk) AND Dragos Gruia (dragos-cristian.gruia19@imperial.ac.uk)
-
+**IMPORTANT: There will be a 1 hour drop-in session on Thursday 6th October - 4.30PM to 5.30PM to help with any installation issues**
