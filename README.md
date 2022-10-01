@@ -14,7 +14,7 @@ You are expected to go trough the material in the following order:
 
     > **IMPORTANT**: to be able to complete the last day of the Python lectures (Lecture10 on statistics), you must have completed the statistical theory. You can work on the the other 9 coding lectures in parallel with the statistical theory, if you prefer.
 
-2. **Device set-up**: there are two documents called `mac_set-up` and `windows_set-up`. Follow the instructions in the document that correspond to your operative system. If you have any questions about the set-up specifically, you can join the **drop-in session with Dragos and Valentina on Thursday 6th of October from 4.30PM to 5.30PM**
+2. **Device set-up**: there are two documents called `Setup-Windows` and `Setup-Mac`. Follow the instructions in the document that correspond to your operative system. If you have any questions about the set-up specifically, you can join the **drop-in session with Dragos and Valentina on Thursday 6th of October from 4.30PM to 5.30PM**
 
 3. **Introduction to Python**: we prepared 10 separate lectures on the most important concepts of programming in Python. The lecture are called LectureN (where N correspond to the number of the lecture) and are already in the order in which you should complete them.
     > **IMPORTANT**: don't skip lectures, but do follow the order we provided, because following lectures are based on previously taught material.
