@@ -18,6 +18,7 @@ Pip is a useful package manager which allows us to download all of the extra mod
 3. To Open `Jupyter` simply type `jupyter` and enter, in `Command Line`
 4. To create a new Notebook, click on New (upper right side of the screen) and select Python3 (ipykernel). You can now use this to write your own code. Type `print('Hello World')` and click the `Run` button. If you don't get any errors it means you are all set up and ready to go.
 5. to install the packages you need, you have to write the following commands in one cell (or chunk of code) of the jupyer:
+
     `%bash`
     `conda install numpy pandas matplotlib`
     
