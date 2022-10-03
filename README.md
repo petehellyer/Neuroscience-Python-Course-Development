@@ -8,11 +8,11 @@ Read the instructions carefully before starting the lectures
 
 You are expected to go trough the material in the following order:
 
-1. **Statistical theory and decision tree**: we prepared for you a brief overview of the main statistical tests and concepts, as well as a *decision tree* that directs you towards the most appropriate statisticals test to use based on your research question and data types. You should go through the theory of statistics as first task.
+1. **Statistical theory**: we prepared for you an overview of the main statistical tests and concepts. You should go through the Blackboard stats refresher as first task (provided here). In addition to the stats refresher, we provided to you more detailed stats material that you can use for reference if you need to, as well as a *decision tree* that directs you towards the most appropriate statisticals test to use based on your research question and data types
 
-    You can access a stats refresher at this [link](https://tinyurl.com/SEDICL) - to access you need to use your Imperial Email
+    You can access the stats refresher at this [link](https://tinyurl.com/SEDICL) - to access you need to use your Imperial Email
 
-    > **IMPORTANT**: to be able to complete the last day of the Python lectures (Lecture10 on statistics), you must have completed the statistical theory. You can work on the the other 9 coding lectures in parallel with the statistical theory, if you prefer.
+    > **IMPORTANT**: to be able to complete the last day of the Python lectures (Lecture10 on statistics), you must have completed the stats refresher. You can work on the the other 9 coding lectures in parallel with the statistical theory, if you prefer.
 
 2. **Device set-up**: there are two documents called `Setup-Windows` and `Setup-Mac`. Follow the instructions in the document that correspond to your operative system. If you have any questions about the set-up specifically, you can join the **drop-in session with Dragos and Valentina on Thursday 6th of October from 4.30PM to 5.30PM**
 
