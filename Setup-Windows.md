@@ -30,7 +30,7 @@ Pip is a useful package manager which allows us to download all of the extra mod
 1. Open a terminal by selecting the `Terminal` app from the Windows Menu
 2. Copy the following commands and press  `Enter ` at the end of each command
 
-     `cd`
+     `cd ~`
 
      `cd Desktop/`
 
