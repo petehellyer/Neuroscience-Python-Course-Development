@@ -8,7 +8,7 @@ Read the instructions carefully before starting the lectures
 
 You are expected to go trough the material in the following order:
 
-1. **Statistical theory**: we prepared for you an overview of the main statistical tests and concepts. You should go through the Blackboard stats refresher as first task (provided here). In addition to the stats refresher, we provided to you more detailed stats material that you can use for reference if you need to, as well as a *decision tree* that directs you towards the most appropriate statisticals test to use based on your research question and data types
+1. **Statistical theory**: we prepared for you an overview of the main statistical tests and concepts. You should go through the Blackboard stats refresher as first task. In addition to the stats refresher, you will have access to more detailed stats material that you can use for reference if you need to, as well as a *decision tree* that directs you towards the most appropriate statisticals test to use based on your research question and data types
 
     You can access the stats refresher at this [link](https://tinyurl.com/SEDICL) - to access you need to use your Imperial Email
 
