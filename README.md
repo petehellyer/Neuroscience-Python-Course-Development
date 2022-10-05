@@ -1,7 +1,7 @@
 # Pre-material of the MSc Translational Neuroscience
 ## Introduction to Python programming and statistics
 
-Welcome to the pre-material of the **MSc Translational Neuroscience**! The aim of the material is to introduce you to `programming in Python` and to `statistics`. If you have already experience with programming and/or statistics, then this will be only an easy review. If not, it will give you the necessary foundation to be able to complete smooothly the modules in the MSc.
+Welcome to the pre-material of the **MSc Translational Neuroscience**! The aim of the material is to introduce you to `programming in Python` and to `statistics`. If you already have experience with programming and/or statistics, then this will be an easy review. If not, it will give you the necessary foundation to be able to smooothly complete the modules in the MSc.
 ```
 Read the instructions carefully before starting the lectures
 ```
@@ -25,8 +25,8 @@ You are expected to go trough the material in the following order:
 
     | Lecture | Title | Topic |
     | :---: | :---: |:--- |
-    | Lecture1 | Introduction to Python syntax and variables | <ul><li>Jupyter Notebook</li><li>Introduction to Bash</li><li>Variables</li><li>Common Python Erros </li><li>Relational Operators</li><li>Logical Operators</li><li>Working with Files</li><li>Introduction to python scripts</li><li>Debugging </li></ul> |
-    | Lecture2 | Introduction to Functions |<ul><li>Structure and application of functions</li> </ul>|
+    | Lecture1 | Introduction to Python syntax and variables | <ul><li>Jupyter Notebook</li><li>Introduction to Bash</li><li>Variables</li><li>Relational Operators</li><li>Logical Operators</li><li>Working with Files</li></ul> |
+    | Lecture2 | Introduction to Functions |<ul><li>Structure and application of functions</li> <li>Introduction to python scripts</li><li>Debugging </li> <li>Common Python Erros </li></ul>|
     | Lecture3 | Introduction to Lists and Arrays |<ul><li>Importing Modules</li><li>Extract elements from lists</li><li>Lists update</li><li>Basic operations with lists</li><li>Extract elements from arrays</li><li>Arrays dimentions and shapes</li><li>Generation of arrays</li><li>Mathematical operations with arrays</li> </ul> |
     | Lecture4| Introduction to Conditional Statements| <ul><li>Conditional statements structure and application</li><li>Truthiness and conditional statement</li> </ul>|
     | Lecture5| introduction to Loops | <ul><li>Introduction to for loops</li><li>Looping over lists</li><li>Looping over strings</li><li>Range function</li><li>Enumerate function</li><li>Continue and break</li><li>Nested loops</li><li>Introduction to While</li> </ul> |
@@ -36,7 +36,7 @@ You are expected to go trough the material in the following order:
     | Lecture9 | Introduction to plotting | <ul><li>Scatterplots</li><li>Histograms</li><li>Barplots</li><li>Boxplots</li><li>Pie charts</li><li>Subplots</li> </ul> |
     | Lecture10 | Introduction to Summary Statistics and Hypothesis Testing | <ul><li>Summarising numerical data</li><li>Summarising Categorical Data</li><li>Hypothesis testing and statistical tests</li><li>Correlation analysis</li><li>Linear Regression</li><li>One-way Anova</li> </ul> |
 
-4. **Exercises**: when you completed **both** the *statistical theory* and the *programming* lectures, you can continue to complete the 5 exercises that we have prepared for you. The exercises require you to know everything we have mentioned in the lectures (both programming and statistics) and consist in analysing and preparing some real-data on cognitive behaviour, as well as solving some coding exercises. We suggest you to solve each exercise in a separate `Jupyter Notebook`. 
+4. **Exercises**: when you have completed **both** the *statistical theory* and the *programming* lectures, you can continue to complete the 5 exercises that we have prepared for you. The exercises require you to know everything we have mentioned in the lectures (both programming and statistics) and consist in analysing and preparing some real-data on cognitive behaviour, as well as solving some coding exercises. We suggest you to solve each exercise in a separate `Jupyter Notebook`. 
 
 
-    > **IMPORTANT**: In the week between the **10th and 16th of October**, we will open a `Q&A` Channel on teams, where you will be able to post questions about the lectures and the exercises. The `Q&A` will remain open for **ONE WEEK**. During this week, you have the opportunity to ask all the questions you might have. At the end of the week, we will reply to all the questions in the cannel. If we believe that one question might require longer explanations, we will schedule calls with all the students that are facing the same issues.
+    > **IMPORTANT**: In the week between the **10th and 16th of October**, we will open a `Q&A` Channel on teams, where you will be able to post questions about the lectures and the exercises. The `Q&A` will remain open for **ONE WEEK**. During this week, you have the opportunity to ask all the questions you might have. At the end of the week, we will reply to all the questions in the channel. If we believe that one question might require longer explanations, we will schedule calls with all the students that are facing the same issue.
