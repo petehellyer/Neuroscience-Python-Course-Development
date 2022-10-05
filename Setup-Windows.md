@@ -16,7 +16,7 @@ Pip is a useful package manager which allows us to download all of the extra mod
 1. Now that you have pip, we can use that to install jupyter notebook. This is the place where will write and execute all the Python code. We chose this as it provides a very nice interface and it is easy to use if you are a beginner.
 2. Open a terminal by selecting the `Terminal` app from the Windows Menu
 2. Once the terminal (or command line) is open, write `pip install jupyter` and press `Enter`
-3. To Open `Jupyter` simply type `jupyter` and `Enter`, in `Command Line`
+3. To Open `Jupyter` simply type `jupyter notebook` and `Enter`, in `Command Line`
 4. To create a new Notebook, click on New (upper right side of the screen) and select Python3 (ipykernel). You can now use this to write your own code. Type `print('Hello World')` and click the `Run` button. If you don't get any errors it means you are all set up and ready to go.
 5. to install the packages you need, you have to write the following commands in one cell (or chunk of code) of the jupyer:
 
