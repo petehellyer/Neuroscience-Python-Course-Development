@@ -14,7 +14,7 @@ Pip is a useful package manager which allows us to download all of the extra mod
 
 ## Step 3: Install Jupyter Notebook
 1. Now that you have pip, we can use that to install jupyter notebook. This is the place where will write and execute all the Python code. We chose this as it provides a very nice interface and it is easy to use if you are a beginner.
-2. Open a terminal by selecting the `Terminal` app from the Windows Menu
+2. Open a terminal by selecting the `Command Line` app from the Windows Menu
 2. Once the terminal (or command line) is open, write `pip install jupyter` and press `Enter`
 3. To Open `Jupyter` simply type `jupyter notebook` and `Enter`, in `Command Line`
 4. To create a new Notebook, click on New (upper right side of the screen) and select Python3 (ipykernel). You can now use this to write your own code. Type `print('Hello World')` and click the `Run` button. If you don't get any errors it means you are all set up and ready to go.
@@ -26,7 +26,7 @@ Pip is a useful package manager which allows us to download all of the extra mod
   
 
 ## Step 4: Open the Lecture Materials
-1. Open a terminal by selecting the `Terminal` app from the Windows Menu
+1. Open a terminal by selecting the `Command Line` app from the Windows Menu
 2. Copy the following commands and press  `Enter ` at the end of each command
 
      `cd ~`
@@ -36,7 +36,7 @@ Pip is a useful package manager which allows us to download all of the extra mod
      `git clone https://github.com/dragos-gruia/MSc-Neuroscience-Python-Course-Development.git`
 
      `cd MSc-Neuroscience-Python-Course-Development`
-3. Once it is done downlaoding, type `jupyter` and `Enter`. This should open a Jupyter interface.
+3. Once it is done downloading, type `jupyter notebook` and `Enter`. This should open a Jupyter interface.
 4. If everything worked well, you should now be able to see and open the programming materials we created. To do so, press on the file called `Lecture1.ipnb` and start with the lectures.
 
 
