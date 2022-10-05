@@ -22,9 +22,8 @@ Pip is a useful package manager which allows us to download all of the extra mod
 
     `%bash`
     
-    `pip install numpy pandas matplotlib`
-    
-    Reply `yes` or `y` when asked and press  `Enter `
+    `pip install numpy pandas matplotlib --yes`
+  
 
 ## Step 4: Open the Lecture Materials
 1. Open a terminal by selecting the `Terminal` app from the Windows Menu
