@@ -54,7 +54,7 @@
 
      `git clone https://github.com/petehellyer/Neuroscience-Python-Course-Development.git`
 
-     `cd MSc-Neuroscience-Python-Course-Development`
+     `cd Neuroscience-Python-Course-Development`
 
     `jupyter lab`
 
