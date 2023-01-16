@@ -33,9 +33,9 @@ Pip is a useful package manager which allows us to download all of the extra mod
 
      `cd Desktop/`
 
-     `git clone https://github.com/dragos-gruia/MSc-Neuroscience-Python-Course-Development.git`
+     `git clone https://github.com/petehellyer/Neuroscience-Python-Course-Development.git`
 
-     `cd MSc-Neuroscience-Python-Course-Development`
+     `cd Neuroscience-Python-Course-Development`
 3. Once it is done downloading, type `jupyter notebook` and `Enter`. This should open a Jupyter interface.
 4. If everything worked well, you should now be able to see and open the programming materials we created. To do so, press on the file called `Lecture1.ipnb` and start with the lectures.
 
@@ -47,6 +47,4 @@ If you have never used Jupyter Notebook before, it might be useful going through
 https://www.dataquest.io/blog/jupyter-notebook-tutorial/
 
 
-If you have any installation issue, write an email to Valentina Giunchiglia (v.giunchiglia20@imperial.ac.uk) AND Dragos Gruia (dragos-cristian.gruia19@imperial.ac.uk)
-
-**IMPORTANT: There will be a 1 hour drop-in session on Thursday 6th October - 4.30PM to 5.30PM to help with any installation issues**
+If you have any installation issue, write an email to peter.hellyer@kcl.ac.uk
