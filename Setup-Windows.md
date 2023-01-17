@@ -5,7 +5,11 @@
 1. Download and install Anaconda from https://repo.anaconda.com/archive/Anaconda3-2022.10-Windows-x86_64.exe
 
 ## Step 2: Install Git
-1. Download and install Git from https://git-scm.com/download/win. Git will ask you lots of questions, Whilst installing, select all the default options. 
+1. Download and install Git from https://git-scm.com/download/win.
+   - on the second screen of the installer, make sure to tick '(NEW!) Add a Git Bash Profile to Windows Terminal'
+   - ![Select Options](Figures/img.png)
+
+2. Git will ask you lots of other questions, Whilst installing, select all the default options. 
 
 
 ## Step 3: Install Jupyter Notebook
