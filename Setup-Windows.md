@@ -12,6 +12,9 @@ Pip is a useful package manager which allows us to download all of the extra mod
 2. To do this, go to this webpage and follow the steps https://phoenixnap.com/kb/install-pip-windows
 3. DO NOT DOWNGRADE YOUR PIP VERSION
 
+## Step 2a: You may need to install git
+Git is a version control system, that we use to download the lectures you're about to do (the're hosted on GitHub!) - you can download git from here https://git-scm.com/download/win 
+
 ## Step 3: Install Jupyter Notebook
 1. Now that you have pip, we can use that to install jupyter notebook. This is the place where will write and execute all the Python code. We chose this as it provides a very nice interface and it is easy to use if you are a beginner.
 2. Open a terminal by selecting the `Command Line` app from the Windows Menu
