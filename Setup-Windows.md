@@ -26,12 +26,10 @@
   
 
 ## Step 4: Open the Lecture Materials
-1. Open a terminal by selecting the `Anaconda Prompt (anaconda3)` app from the Windows Menu
+1. Open a terminal by selecting the `Anaconda Prompt (anaconda3)` app from the Windows Menu **(be careful not to select Anaconda Powershell Prompt)**
 2. Copy the following commands and press  `Enter ` at the end of each command
 
-     `cd %USERPROFILE%`
-
-     `cd Desktop/`
+     `cd %USERPROFILE%` (if for some reason you *are* using Anaconda Powershell Prompt, use `cd $home` instead)
 
      `git clone https://github.com/petehellyer/Neuroscience-Python-Course-Development.git`
 
